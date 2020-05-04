@@ -4,9 +4,7 @@ apt install python -y
 pip install youtube-dl
 mkdir /data/data/com.termux/files/home/storage/shared/Youtube
 mkdir -p ~/.config/youtube-dl
-vim ~/.config/youtube-dl/config
---no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s -f "best[height<=1080]"
+nano '--no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s -f "best[height<=1080]"' >> ~/.config/youtube-dl/config
 mkdir ~/bin
 cd ~/bin
-vim termux-url-opener
-youtube-dl $1
+echo 'youtube-dl $1' >> termux-url-opener
