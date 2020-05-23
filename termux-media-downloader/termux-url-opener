@@ -7,12 +7,12 @@ clear
 bold=$(tput bold)
 normal=$(tput sgr0)
 
-echo "${bold}TERMUX MEDIA DOWNLOADER${normal} by @pereirawe\n"
-echo $'\n'
+echo "${bold}TERMUX MEDIA DOWNLOADER${normal}"
+echo $'\nby @pereirawe'
 echo "> ${1}"
 
 if [[ $1 =~ ^.*youtu.*$ ]]; then
-	
+
 	echo $'\nDownload as an mp3 file ? (Y/N/E)'
 	read -p "> " -n 1 -r
 	echo $'\n'
