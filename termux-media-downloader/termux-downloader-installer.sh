@@ -21,7 +21,7 @@ mkdir /data/data/com.termux/files/home/storage/shared/Youtube/Music
 mkdir /data/data/com.termux/files/home/storage/shared/Instagram
 
 cd ~/bin
-wget https://gist.githubusercontent.com/pereirawe/8bdd1205e6e2481e3e6d8259d51134ed/raw/2fb1ef0aac9d9192549a15426eaf18cd2508e5d5/termux-url-opener.sh
+wget https://gist.githubusercontent.com/pereirawe/8bdd1205e6e2481e3e6d8259d51134ed/raw/4b8cc1d26fc0c87c3184f3cac29ca818101ef6e8/termux-url-opener
 
 # mkdir /data/data/com.termux/files/home/storage/shared/Twitter
 
