@@ -3,8 +3,6 @@ sudo su
 
 apt update && apt upgrade -y
 
-
-
 # termux-setup-storage
 
 apt install python -y

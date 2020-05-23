@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# LOCATION URL
+# https://raw.githubusercontent.com/pereirawe/scripts/master/termux-media-downloader/termux-url-opener
+
 clear
 bold=$(tput bold)
 normal=$(tput sgr0)
