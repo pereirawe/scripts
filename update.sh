@@ -3,9 +3,9 @@ sudo apt update
 clear
 sudo apt upgrade
 clear
-sudo apt --fix-broken install
+sudo apt-get --fix-broken install
 clear
-sudo apt autoremove
+sudo apt-get autoremove
 clear
 exit
 exit
