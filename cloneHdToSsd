@@ -1,0 +1,4 @@
+sudo fdisk -l;
+
+# sudo dd if=/dev/sda of=/dev/sdb
+
